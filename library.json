@@ -1,0 +1,11 @@
+{
+    "name": "millis",
+    "keywords": "millis,arduino,avr",
+    "description": "millis() without Arduino.h",
+    "version": "1.0.0",
+    "authors": {
+        "name": "Rob Duarte",
+        "url": "https://github.com/rahji"
+    },
+    "license": "MIT"
+}

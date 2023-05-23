@@ -14,7 +14,7 @@ I use this module with PlatformIO. Here are a few different ways you can add it 
 lib_deps = https://github.com/rahji/millis.git#v1.0.0
 ```
 
-You'll want to make sure that the `framework = arduino` line is removed from `platformio.ini`
+You'll want to make sure that the `framework = arduino` line is removed from `platformio.ini` and that a `board_build.f_cpu = 8000000L` line is added (with your actual clock speed).
 
 ## Usage
 
